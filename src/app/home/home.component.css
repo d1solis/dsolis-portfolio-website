@@ -1,0 +1,9 @@
+.title {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.mini-intro {
+    color: rgba(255, 255, 255, 0.466);
+}
