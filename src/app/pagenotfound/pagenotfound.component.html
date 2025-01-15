@@ -1,5 +1,49 @@
-<div class="flex justify-center items-center h-screen bg-gray-800">
-    <p class="text-white text-4xl text-center">
-        Page Not Found!
-    </p>
+<div class="flex-col justify-center items-center h-screen bg-gray-800">
+    <section class="bg-white dark:bg-gray-800 ">
+        <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
+            <div class="wf-ull lg:w-1/2">
+                <p class="text-sm font-medium text-pink-500 dark:text-pink-400">404 error</p>
+                <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Page Not Found</h1>
+                <p class="mt-4 text-gray-500 dark:text-gray-400">Sorry, the page you are looking for doesn't exist. Here are some helpful links:</p>
+    
+                <div class="flex items-center mt-6 gap-x-3">
+                    <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                        </svg>
+    
+    
+                        <span>Go Back</span>
+                    </button>
+    
+                    <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-pink-600 rounded-lg shrink-0 sm:w-auto hover:bg-pink-500 dark:hover:bg-pink-600 dark:bg-pink-500">
+                        Take Me Home
+                    </button>
+                </div>
+            </div>
+    
+            <div class="relative w-full mt-12 lg:w-1/2 lg:mt-0">
+                <img class="w-full max-w-lg lg:mx-auto" src="/assets/illustration.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl font-bold">Dalila Solis</span>
+          </a>
+          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2025 Dalila Solis —
+            <a href="https://tailblocks.cc/" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">Built using: Tailblocks &</a>
+            <a href="https://merakiui.com/" class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">Merakiui</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a href="https://www.linkedin.com/in/dalila-solis-993b85319/" class="fa fa-linkedin ml-3 text-gray-400"></a>
+            <a href="https://github.com/d1solis" class="fa fa-github ml-3 text-gray-400"></a>
+          </span>
+        </div>
+      </footer>
 </div>
